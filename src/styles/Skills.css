@@ -2,7 +2,7 @@
 
 #Skills {
     margin-top: 2em;
-    height: 80vh;
+    height: 120vh;
     width: 100%;
     /* background-color: red; */
     /* margin-top: 10em; */
@@ -31,8 +31,8 @@
 }
 
 .skills-box .box {
-    height: 180px;
-    width: 180px;
+    height: 160px;
+    width: 160px;
     background-color: rgb(255, 255, 255);
     background-color: transparent;
     /* border: 2px solid white; */
@@ -148,17 +148,11 @@
 #box6 {
     background: url(../Assets/mi.png);
     background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 #box7 {
     background: url(../Assets/node.png);
     background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 #box8 {

@@ -1,0 +1,132 @@
+#Contact{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 20px;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 5em 30em;
+    grid-template-areas: "navigation navigation"
+                        "contact-field map-field";
+    gap: 10px;
+    justify-content: center; */
+    /* align-items: center; */
+    /* margin-top: 20em; */
+}
+
+#contact{
+    display: grid;
+    background-color: rgb(255, 255, 255);
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10em 30em;
+    grid-template-areas: "heading heading "
+                        "contact-field map-field";
+    gap: 20px;
+    justify-content: center;
+    /* box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff; */
+}
+
+#contact .heading{
+    height: 100px;
+    width: 100%;
+    grid-area: heading;
+    background-color: rgb(255, 255, 255);
+    margin-left: -1.3em;
+    margin-top:1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff; */
+    color: red;
+    font-size: 30px;
+    border-bottom: 3px solid red;
+}
+#contact .contact-field{
+    grid-area: contact-field;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+}
+#contact .map-field{
+    grid-area: map-field;
+    background-color: blue;
+    /* box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff; */
+}
+
+#contact .contact-field{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-field button{
+    width: 100px;
+    height: 40px;
+    border: 2px solid red;
+    background-color: transparent;
+    color: red;
+    transition: 0.5s;
+}
+
+.contact-field button:hover{
+    border: 2px solid greenyellow;
+    color: green;
+}
+
+ #input-name{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;
+}
+
+.cont-same{
+    margin: 1em;
+        /* box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff; */
+}
+
+.cont-same input{
+    color: red;
+    border: 1px solid rgb(255, 0, 0);
+}
+.cont-same label{
+    font-size: 20px;
+    color: red;
+}
+
+#input-name input{
+    color: red;
+    width: 40rem;
+    height: 3rem;
+    padding-left: 20px;
+    color: black;
+    /* box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff; */
+}
+
+#input-msg input{
+    width: 40rem;
+    /* width: 100%; */
+    height: 10rem;
+    padding-left: 20px;
+    color: black;
+    display: flex;
+    align-items: flex-start;
+    /* box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff; */
+}
+#input-msg input::placeholder{
+    display: flex;
+    align-items: flex-start;
+    /* padding-left: 20px; */
+    /* color: black; */
+}
+
+ #input-msg{
+    display: flex;
+    justify-content: center;
+    /* align-items: flex-start; */
+    flex-direction: column;
+}
+
+
+

@@ -1,6 +1,111 @@
 
-#work{
+.work{
+    position: default;
     height: 100vh;
     width: 100vw;
     background-color: black;
+    /* z-index: 200; */
+    color: black;
+}
+
+.work h1{
+    color: black;
+    background-color: rgb(255, 131, 131);
+}
+
+#Work{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1em;
+    /* display: grid; */
+    /* grid-template-rows: 1fr 1fr ; */
+}
+
+.project-div{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* grid-template-rows: 1fr 1fr ; */
+} 
+
+.big-box button{
+    /* transition: 1s; */
+}
+
+.big-box h1{
+    font-size: 30px;
+    color: lightseagreen;
+    align-self: center;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.project-box{
+    height: 270px;
+    width: 420px;
+    background-color: lightgrey;
+    margin: 1em 1.5em;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+.project-box button{
+    height: 50px;
+    width: 110px;
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 2px solid rgb(255, 0, 0);
+    visibility: hidden;
+}
+
+.big-box a{
+    list-style: none;
+}
+
+.big-box:hover{
+    opacity: 5px;
+}
+
+.big-box:hover button{
+    visibility: visible;
+}
+
+#projectBox1 {
+    background: url(../Assets/css.png);
+    background-size: cover;
+}
+
+#projectBox2 {
+    background: url(../Assets/js.png);
+    background-size: cover;
+}
+
+#projectBox3 {
+    background: url(../Assets/react.png);
+    background-size: cover;
+}
+
+#projectBox4 {
+    background: url(../Assets/boot.png);
+    background-size: cover;
+}
+
+#projectBox5 {
+    background: url(../Assets/boot.png);
+    background-size: cover;
+}
+
+#projectBox6 {
+    background: url(../Assets/boot.png);
+    background-size: cover;
 }
