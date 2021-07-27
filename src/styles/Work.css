@@ -81,7 +81,7 @@
 }
 
 #projectBox1 {
-    background: url(../Assets/css.png);
+    background: url(../Assets/yk.png);
     background-size: cover;
 }
 
@@ -91,17 +91,17 @@
 }
 
 #projectBox3 {
-    background: url(../Assets/react.png);
+    background: url(../Assets/whiteboard.png);
     background-size: cover;
 }
 
 #projectBox4 {
-    background: url(../Assets/boot.png);
+    background: url(../Assets/covid.png);
     background-size: cover;
 }
 
 #projectBox5 {
-    background: url(../Assets/boot.png);
+    background: url(../Assets/brickbreaker.png);
     background-size: cover;
 }
 

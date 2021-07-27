@@ -11,7 +11,7 @@ export default function Work() {
       <div className="project-div">
         <div className="big-box">
           <div className="project-box" id="projectBox1">
-            <a href="www.google.com" target="_blank">
+            <a href="https://github.com/Praveen-Prajapati-2150/Your-Keep" target="_blank">
               {" "}
               <button>Visit</button>
             </a>
@@ -21,7 +21,7 @@ export default function Work() {
 
         <div className="big-box">
           <div className="project-box" id="projectBox2">
-            <a href="www.google.com" target="_blank">
+            <a href="" target="_blank">
               {" "}
               <button>Visit</button>
             </a>
@@ -31,7 +31,7 @@ export default function Work() {
 
         <div className="big-box">
           <div className="project-box" id="projectBox3">
-            <a href="www.google.com" target="_blank">
+            <a href="https://praveen-prajapati-2150.github.io/White_Board/" target="_blank">
               {" "}
               <button>Visit</button>
             </a>
@@ -41,7 +41,7 @@ export default function Work() {
 
         <div className="big-box">
           <div className="project-box" id="projectBox4">
-            <a href="www.google.com" target="_blank">
+            <a href="https://Praveen-Prajapati-2150.github.io/Covid-Tracker" target="_blank">
               {" "}
               <button>Visit</button>
             </a>
@@ -51,7 +51,7 @@ export default function Work() {
 
         <div className="big-box">
           <div className="project-box" id="projectBox5">
-            <a href="www.google.com" target="_blank">
+            <a href="https://dom-brick-breaker-game.netlify.app/" target="_blank">
               {" "}
               <button>Visit</button>
             </a>
