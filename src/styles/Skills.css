@@ -1,199 +1,199 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
 #Skills {
-    margin-top: 2em;
-    height: 120vh;
-    width: 100%;
-    /* background-color: red; */
-    /* margin-top: 10em; */
+  margin-top: 2em;
+  height: 120vh;
+  width: 100%;
+  /* background-color: red; */
+  /* margin-top: 10em; */
 }
 
 #Skills .heading h1 {
-    color: red;
-    font-size: 30px;
-    border-bottom: 3px solid red;
-    margin: 11rem 0 0 39rem;
+  color: red;
+  font-size: 30px;
+  border-bottom: 3px solid red;
+  margin: 11rem 0 0 39rem;
 }
 
 .skills-box {
-    /* margin-top: 4em; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  /* margin-top: 4em; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .skills-box {
-    display: flex;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  display: flex;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 .skills-box .box {
-    height: 160px;
-    width: 160px;
-    background-color: rgb(255, 255, 255);
-    background-color: transparent;
-    /* border: 2px solid white; */
-    margin: 2em;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 1s;
-    /* color: rgb(255, 255, 255); */
-    flex-direction: column;
-    font-size: 30px;
-    /* animation: move 2s linear infinite; */
-    font-family: 'Righteous', cursive;
-    box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
-    padding: 5px;
+  height: 160px;
+  width: 160px;
+  background-color: rgb(255, 255, 255);
+  background-color: transparent;
+  /* border: 2px solid white; */
+  margin: 2em;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+  /* color: rgb(255, 255, 255); */
+  flex-direction: column;
+  font-size: 30px;
+  /* animation: move 2s linear infinite; */
+  font-family: 'Righteous', cursive;
+  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+  padding: 5px;
 }
 
-.skills-box .box span{
-    margin-top: 8em;
-    color: lightseagreen;
+.skills-box .box span {
+  margin-top: 8em;
+  color: lightseagreen;
 }
 
-.skills-box .box:hover{
-    margin-top: -1em;
-    transform: scale(1.02);
-    color: lightseagreen;
+.skills-box .box:hover {
+  margin-top: -1em;
+  transform: scale(1.02);
+  color: lightseagreen;
 }
 
-.skills-box .left{
-    animation: moveleft 2s linear infinite;
+.skills-box .left {
+  animation: moveleft 2s linear infinite;
 }
-.skills-box .right{
-    animation: moveleft 2s linear infinite;
-    animation-delay: 1s;
-}
-
-@keyframes moveleft{
-    to{
-        transform: translateX(0%);
-    }
-    25%{
-        transform: translateX(-10%);
-    } 
-    50%{
-        transform: translateX(0%);
-    } 
-    75%{
-        transform: translateX(10%);
-    } 
-    100%{ 
-        transform: translateX(0%);
-    } 
+.skills-box .right {
+  animation: moveleft 2s linear infinite;
+  animation-delay: 1s;
 }
 
-@keyframes moveright{
-    to{
-        transform: translateX(0%);
-    }
-    25%{
-        transform: translateX(10%);
-    } 
-    50%{
-        transform: translateX(0%);
-    } 
-    75%{
-        transform: translateX(-10%);
-    } 
-    100%{ 
-        transform: translateX(0%);
-    } 
+@keyframes moveleft {
+  to {
+    transform: translateX(0%);
+  }
+  25% {
+    transform: translateX(-7%);
+  }
+  50% {
+    transform: translateX(0%);
+  }
+  75% {
+    transform: translateX(7%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
 }
 
-@keyframes moveup{
-    0%{
-        transform: translateY(0%);
-    }
-    50%{
-        transform: translateY(-8%);
-    }
-    100%{
-        transform: translateY(0%);
-    }
+@keyframes moveright {
+  to {
+    transform: translateX(0%);
+  }
+  25% {
+    transform: translateX(7%);
+  }
+  50% {
+    transform: translateX(0%);
+  }
+  75% {
+    transform: translateX(-7%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes moveup {
+  0% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(-8%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
 }
 
 #box1 {
-    background: url(../Assets/html.png);
-    background-size: cover;
-    /* animation: moveup 2s linear infinite; */
-    /* animation-delay: 1s; */
+  background: url(../Assets/html.png);
+  background-size: cover;
+  /* animation: moveup 2s linear infinite; */
+  /* animation-delay: 1s; */
 }
 
 #box2 {
-    background: url(../Assets/css.png);
-    background-size: cover;
+  background: url(../Assets/css.png);
+  background-size: cover;
 }
 
 #box3 {
-    background: url(../Assets/js.png);
-    background-size: cover;
+  background: url(../Assets/js.png);
+  background-size: cover;
 }
 
 #box4 {
-    background: url(../Assets/react.png);
-    background-size: cover;
+  background: url(../Assets/react.png);
+  background-size: cover;
 }
 
 #box5 {
-    background: url(../Assets/boot.png);
-    background-size: cover;
+  background: url(../Assets/boot.png);
+  background-size: cover;
 }
 
 #box6 {
-    background: url(../Assets/mi.png);
-    background-size: cover;
+  background: url(../Assets/mi.png);
+  background-size: cover;
 }
 
 #box7 {
-    background: url(../Assets/node.png);
-    background-size: cover;
+  background: url(../Assets/node.png);
+  background-size: cover;
 }
 
 #box8 {
-    background: url(../Assets/py.png);
-    background-size: cover;
+  background: url(../Assets/py.png);
+  background-size: cover;
 }
 
 #box9 {
-    background: url(../Assets/figma.png);
-    background-size: cover;
+  background: url(../Assets/figma.png);
+  background-size: cover;
 }
 
 #box10 {
-    background: url(../Assets/se.png);
-    background-size: cover;
+  background: url(../Assets/se.png);
+  background-size: cover;
 }
 #box11 {
-    background: url(../Assets/git.png);
-    background-size: cover;
+  background: url(../Assets/git.png);
+  background-size: cover;
 }
 #box12 {
-    background: url(../Assets/github.png);
-    background-size: cover;
+  background: url(../Assets/github.png);
+  background-size: cover;
 }
 #box13 {
-    background: url(../Assets/redux.png);
-    background-size: cover;
+  background: url(../Assets/redux.png);
+  background-size: cover;
 }
 #box14 {
-    background: url(../Assets/fire.png);
-    background-size: cover;
+  background: url(../Assets/fire.png);
+  background-size: cover;
 }
 #box15 {
-    background: url(../Assets/ts.png);
-    background-size: cover;
+  background: url(../Assets/ts.png);
+  background-size: cover;
 }
 
 #cara {
-    height: 60vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

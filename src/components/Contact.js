@@ -1,5 +1,4 @@
-import react from "react";
-import "../styles/Contact.css";
+import '../styles/Contact.css';
 
 export default function Contact() {
   return (
@@ -7,21 +6,28 @@ export default function Contact() {
       <div id="contact">
         <div className="heading">Contact</div>
 
-        <div className="contact-field">
+        <form
+          className="contact-field"
+          action="https://formsubmit.co/praveenranoliya5@gmail.com"
+          target="_blank"
+          method="POST"
+          noValidate
+          autoComplete="off"
+        >
           <div className="cont-same" id="input-name">
             <label htmlFor="">Name</label>
-            <input type="text" placeholder="enter your name" />
+            <input type="text" name="name" placeholder="enter your name" />
           </div>
 
           <div className="cont-same" id="input-msg">
             <label htmlFor="">Message</label>
-            <input type="text" placeholder="text me anything" />
+            <input type="text" name="message" placeholder="text me anything" />
           </div>
 
-          <button className="cont-same" type="submit">
+          <button className="cont-same" type="submit" variant="extended">
             Send
           </button>
-        </div>
+        </form>
 
         <div className="map-field">
           <iframe
